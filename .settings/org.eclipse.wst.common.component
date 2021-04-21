@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-<<<<<<< HEAD
-    <wb-module deploy-name="guida tv">
+    <wb-module deploy-name="GuidaTv">
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
-        <property name="context-root" value="guida_tv"/>
-        <property name="java-output-path" value="/guida tv/build/classes"/>
-=======
-    <wb-module deploy-name="WebEngApp">
-        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
-        <property name="context-root" value="WebEngApp"/>
-        <property name="java-output-path" value="/WebEngApp/build/classes"/>
->>>>>>> 1e16087051b8a3d69a560abb5b1dde1cefec0a0b
+        <property name="context-root" value="GuidaTv"/>
+        <property name="java-output-path" value="/GuidaTv/build/classes"/>
     </wb-module>
 </project-modules>

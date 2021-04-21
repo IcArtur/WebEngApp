@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>GuidaTv</display-name>
+ 
+ <servlet>
+ 	<servlet-name>reg</servlet-name>
+ 	<servlet-class>com.guida.RegistrationServlet</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ 
+ 	<servlet-name>reg</servlet-name>
+ 	<url-pattern>/regServlet</url-pattern>
+ 
+ </servlet-mapping>
+ 
+  <servlet>
+ 	<servlet-name>login</servlet-name>
+ 	<servlet-class>com.guida.Login</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ 
+ 	<servlet-name>login</servlet-name>
+ 	<url-pattern>/logServlet</url-pattern>
+ 
+ </servlet-mapping>
+ 
+ 
+ <servlet>
+ 	<servlet-name>logout</servlet-name>
+ 	<servlet-class>com.guida.Logout</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ 
+ 	<servlet-name>logout</servlet-name>
+ 	<url-pattern>/outServlet</url-pattern>
+ 
+ </servlet-mapping>
+ 
+</web-app>
